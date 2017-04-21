@@ -1,3 +1,5 @@
-# Midlands_Martin_EGR183
-Labs for Martin EGR 183
+# Midlands_Martin_EGR283
+
+Labs for Martin EGR 283 - Algorithmic Design 2
+
 By Rafael Dejesus
