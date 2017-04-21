@@ -1,0 +1,26 @@
+Lab 5: Circular Linked List
+Instructions
+
+todo: Write a class definition for a
+done:     CircularList class that implements the
+done:         CircularListI interface.
+done:             Note that the list methods involving indices should
+done:                 count from the first element of the list as index 0.
+done:             Throw an exception if the index is out-of-bounds.
+
+todo: Write a driver program
+todo:     print a menu and
+todo:     days.feb9.test each of the methods in the class, including the
+todo:         List interface methods,
+todo:             repeating until a "Quit" option is selected. It may be
+todo:                 GUI or
+todo:                 command-line.
+todo:
+todo: Upload to this dropbox your well-documented Java source code, documented in the JavaDoc style with
+todo:     At the top of the file, a general description of the class, @author followed by your name, and @version followed by the date
+todo:     Before each instance variable, between /** and */, a short description of the meaning of the instance variable (field).
+todo:     At the top of each method (including constructors)
+todo:     A general description of the method, with the name of the method between <code> and </code>
+todo:     For each parameter, @param followed by the parameter name and a description of the parameter on the next line or two.
+todo:     If an exception is thrown, @throws followed by the name of the exception.
+todo:     For non-void functions, @return followed by what the method returns.

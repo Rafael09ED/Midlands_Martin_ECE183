@@ -1,0 +1,19 @@
+Create a program that will use the attached input file and perform the following operations.
+
+    Read the file into an appropriate JCF data structure.
+        Explain in comments why the data structure is appropriate.
+    Look up a (list of) names and numbers matching a last name or the first letters of a last name, ignoring case.
+    Look up a (list of) names and numbers matching a number or the first digits of a number.
+    Add a name and number to the list.
+    Sort the list by
+            first name,
+            last name or
+            phone number
+        and display it,
+        one page at a time.
+    Save the list to the disk.
+    Write a driver to
+        display a menu of the options listed above and
+        repeat actions until the user selects an Exit option.
+
+Put your well-documented code into a .zip file and upload it to this dropbox.

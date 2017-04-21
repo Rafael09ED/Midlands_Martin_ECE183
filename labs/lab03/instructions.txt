@@ -1,0 +1,26 @@
+Lab 3: Blobs and Boxes
+Instructions
+
+todo:   Write a program to pack boxes with blobs. Write two classes and a driver program.
+done:   A labs.lab3.Blob class
+done:       implements the following interface. (Defines the following methods.)
+done:       A labs.lab3.Blob must be between 1 and 4 pounds, with fractional weights allowed.
+done:       A default constructor creates a labs.lab3.Blob with a weight of 2 pounds.
+done:       A one-double-parameter constructor creates a labs.lab3.Blob with that many pounds,
+done:           or throws an IllegalArgumentException if the weight is less than 1 or greater than 4 pounds.
+done:   A labs.lab3.Box class
+done:       implements the following interface.
+done:           (Note that, since the labs.lab3.Blob class implements labs.lab3.BlobInterface, then a labs.lab3.Blob is a labs.lab3.BlobInterface, so a labs.lab3.Blob can be passed to the insert method below.)
+done:       A default constructor gives a labs.lab3.Box capable of holding up to 25 pounds of Blobs.
+done:       An one-int-parameter constructor creates a labs.lab3.Box capable of holding that number of pounds,
+done:           but throws an IllegalArgumentException for 0 or negative arguments.
+done:    The driver program should
+done:        instantiate 5 25-pound-capacity Boxes and
+done:        30 Blobs with weights that are random doubles from 1 to 4 (Math.random()*3+1).
+done:        Put the 30 Blobs into the boxes, filling the first box, then the second, etc.,
+done:           and then printing out each box.
+done:        The driver may be a console or GUI application.
+done:   Note that the driver program might not use some of the methods or constructors.
+done:        You should define them anyway. Also, use ArrayLists rather than arrays.
+todo:
+todo:   Upload your well-documented Java source code, using JavaDoc style, in a .zip file, to this dropbox.

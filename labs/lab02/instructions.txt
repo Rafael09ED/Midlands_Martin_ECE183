@@ -1,0 +1,35 @@
+done : Create a project,
+done :     then download the attached .zip file and
+done :     extract myStyle.css and GUITemplate.java and
+done :     import both of them into your project.
+done :     Also, add the jfxrt.jar library to your project.
+done :     The Lab2.jar is a runnable solution to this lab.
+done : Create a class that extends GUITemplate.java
+done : In the constructor for your class,
+done :     create an ArrayList<String> and
+done :         add "To F" and "To C" to it,
+done :     then use that as a parameter to the set() method of the superclass to create a GUITemplate with:
+done :         Instructions saying: Enter a temperature, choose "to C" or "to F" and click Go
+done :         one TextField
+done :         The ArrayList<String> for the RadioButton Labels
+done :         A reference to an object of your class for the EventHandler<ActionEvent> class
+done : In your main method,
+done :     call the static void launch method of the base class,
+done :         passing it the same args parameter as the one to your main method.
+done : Override the public void handle(ActionEvent arg0) method of the base class
+done :     to code what the Go button does. It should:
+todo :         Declare a double variable for the contents of the TextField, then,
+todo :             in a try block, assign it the value of getAsDouble(0).
+todo :             Catch any IllegalArgumentException,
+todo :                 calling setAnswer(s) with the exception's message as the parameter s,
+todo :                 and returning from the handle method.
+todo :         Use getSelectedRBIndex() to check if the first RadioButton is selected, and,
+todo :             if it is, call  setAnswer(s)
+todo :                 with s being a String
+todo :                     stating the input value as a Celsius temperature and its value in Fahrenheit, and,
+todo :             if it is not, call  setAnswer(s)
+todo :                 with s being a String
+todo :                     stating the input value as a Fahrenheit temperature and its value in Celsius.
+todo : Document your code well and
+todo :     put all of your project files, including the imported ones, into a single .zip archive and
+todo :     upload it to this dropbox.

@@ -1,0 +1,24 @@
+Lab 7: Delimiter matching
+Instructions
+
+Write a Java application to
+    open any text file,
+    then to read the entire file character by character and
+        use a stack of characters to either
+            output an error message
+                if parens, brackets and curly braces are not properly nested, or
+            a message stating that the file is correct if all of those symbols are properly nested.
+    The basic idea is to
+        push left parens, left brackets and left curly braces onto the stack, then to
+        pop the stack when a right paren, right bracket or right curly brace is encountered and
+            make sure the two symbols match.
+
+Be sure to output
+    appropriate, different, error messages
+        if the left symbol from the stack does not match the right one,
+        if the stack is empty when you need to pop it, and
+        if the stack is not empty when the input is complete.
+
+Note that a Java program that compiles will be correct if there are no parens, brackets or braces in quotes or comments.
+
+Submit your Java files, all documented in JavaDoc style and added to one .zip archive.

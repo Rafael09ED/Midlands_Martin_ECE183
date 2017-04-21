@@ -1,0 +1,35 @@
+todo: Write a class Fib that implements Iterable<Long>
+todo:     with an internal iterator that can be used to
+todo:     print out the labs.lab6.Fibonacci sequence,
+todo:         starting from labs.lab6.Fibonacci number #0, which is 0 and labs.lab6.Fibonacci number #1, which is 1,
+todo:         then each next number being the sum of the previous two
+todo:             (#2 is 1, #3 is 2, #4 is 3, #5 is 5, #6 is 8, etc.)
+todo:         The constructor for your class should have an int parameter that
+todo:             specifies the maximum labs.lab6.Fibonacci sequence number,
+todo:                 such as 6 for the value 8.
+todo:             If the parameter is negative or greater than 92,
+todo:                 it should throw an exception.
+todo:             In your inner class (which implements java.util.Iterator<Long>),
+todo:                 the remove() method should just
+todo:                     throw an UnsupportedOperationException.
+
+todo: Note that rather than a stored list,
+todo:     this class generates the next value.
+todo:     You should keep track of the index (the number indicated with # above) as well as the
+todo:         current and previous values.
+todo:     A good technique in the next() method would be to save the current value, then
+todo:         update it and the previous value and the index, then
+todo:         return the current value.
+todo:         If you set the values carefully in the constructor,
+todo:             the new current will always be the saved current value plus the previous value.
+
+todo: days.feb21.Test your class with a driver program that will
+todo:     prompt for and input an integer,
+todo:     instantiate a Fib object with that integer as the maximum labs.lab6.Fibonacci number, and
+todo:     print out all of the labs.lab6.Fibonacci numbers up to that number,
+todo:         using an enhanced for loop, then
+todo:     repeat until the user enters a negative integer.
+todo:
+todo:     Catch any exceptions thrown by the constructor and display an appropriate message.
+todo:
+todo: Upload a .zip archive of your well-documented Java source code in JavaDoc style to this dropbox.

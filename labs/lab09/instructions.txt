@@ -1,0 +1,39 @@
+Lab 9: Ternary Search Tree
+Instructions
+
+Write a class to implement a ternary tree node and another to implement a ternary search tree.
+
+Each node has
+    up to three children and
+    two Comparable generic type data fields
+Each left data field is either the
+    only data field or
+    less than the second data field.
+Each member of the left subtree is
+    less than the first data field value
+Each member of the middle subtree is
+    between the two data field values (greater than the first and less than the second)
+Each member of the right subtree is
+    greater than the second data field value
+Just write methods to
+    insert elements with no duplicates allowed,
+    find a value in, and
+    print out the tree using inorder (you do not need to use an Iterator).
+Some cases for the insert method
+    If the root is null,
+        add the new element as the first data in a new node and
+        set the root equal to that.
+    If the new element is less than the first data,
+        insert it in the left subtree
+    If the new element is greater than the first data,
+        If there is no second data, add the new element as the second data.
+        If there is second data,
+            If the new element is less than the second data,
+                add it to the middle subtree
+            If the new element is greater than the second data,
+                add it to the right subtree
+Write a driver program to
+    insert random Double values less than 100 and
+    print them out, then
+    test several calls to the find method.
+Turn in an electronic copy of your well-documented Java source code in JavaDoc style to this dropbox.

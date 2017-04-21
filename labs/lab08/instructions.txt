@@ -1,0 +1,40 @@
+Lab 8: Recursive "knight's tour"
+Instructions
+
+Write a program to find a series of knight's moves on a 3 X 3 chessboard from any square to any square, if such a series of moves exists.  (This is a simplified version of what is known as the "knight's tour problem".)
+
+The board can be represented as follows:
+1 2 3
+4 5 6
+7 8 9
+
+Prompt the user with a printout of the board and then prompt for and input a start number and a goal number.
+
+
+Output either a message stating that no such path is possible (to or from square 5), or a list of squares in the order moved, starting with the start number and ending with the goal number.
+
+Print out the solution as a series of boards, with K replacing each of the squares where the knight moves, for example, for moves from 1 to 7:
+K 2 3
+4 5 6
+7 8 9
+
+1 2 3
+4 5 K
+7 8 9
+
+1 2 3
+4 5 6
+K 8 9
+
+The moves can be represented by hardcoding them into a boolean method, returning true for the following pairs of parameter values:
+(1, 8)    (1,6)    (6,1)    (6,7)
+(2, 9)    (2,7)    (7,2)    (7,6)
+(3, 4)    (3,8)    (8,3)    (8,1)
+(4, 9)    (4,3)    (9,2)    (9,4)
+
+You must use recursion to solve the problem.
+
+The base case is that there is a path from X to X, for any X.  Represent this as path(X,X), which returns a list of squares in the order moved, in this case, an ArrayList<Integer> with one element: X.
+The recursive step for finding path(X,Y) is that move(X,Z) exists and path(Z,Y) exists, path(X,Y) returns the result of adding X as the first value of the ArrayList<Integer> returned by path(Z,Y).
+You will need a ArrayList<Boolean> to keep track of which moves have been used, to avoid going in circles. Set all 9 (or 10) cells to false first, then set each to true when it has been visited. Then, you can check to see if each value has been visited before.
+Upload your code, documented in Javadoc style, to this dropbox.

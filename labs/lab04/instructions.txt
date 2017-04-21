@@ -1,0 +1,11 @@
+Lab 4: Sets
+Instructions
+
+todo:   Write a class to create a Set class, then
+todo:       days.feb9.test it thoroughly in a labs.lab11.Driver program.
+todo:   The Set class should implement the attached interface.
+todo:   The class should also have
+todo:       appropriate constructors and
+todo:       override the equals and toString methods of Object.
+todo:   The labs.lab11.Driver should days.feb9.test every method of the Set class.
+todo:   Turn in your well-documented Java source code using JavaDoc style, in a .zip archive, to drop box.
